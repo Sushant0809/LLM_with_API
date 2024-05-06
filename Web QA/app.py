@@ -66,7 +66,7 @@ def answer_question():
 
 
     # Threshold for relevance
-    similarity_threshold = 0.65 # Adjust threshold as needed
+    similarity_threshold = 0.65 
 
     print(similarity)
 
