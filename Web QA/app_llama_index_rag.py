@@ -18,8 +18,6 @@ from llama_index.core.postprocessor import SimilarityPostprocessor
 
 app = Flask(__name__)
 
-llm_path = "meta-llama/Llama-2-7b-chat-hf"
-
 @app.route('/answer_question', methods=['POST'])
 def answer_question():
     req_data = request.get_json()
