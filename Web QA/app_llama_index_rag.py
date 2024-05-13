@@ -32,7 +32,6 @@ def answer_question():
     You are a Q&A assistant. Your goal is to answer questions as
     accurately as possible based on the instructions and context provided.
     """
-    ## Default format supportable by LLama2
     query_wrapper_prompt=SimpleInputPrompt("<|USER|>{query_str}<|ASSISTANT|>")
 
 
