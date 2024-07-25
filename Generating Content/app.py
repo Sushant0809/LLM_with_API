@@ -8,7 +8,7 @@ app = Flask(__name__)
 
 llm_answer_path = "HuggingFaceH4/zephyr-7b-beta"
 torch_device = "cuda:7"
-# API_KEY = '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'
+# API_KEY = 'Use your API key'
 
 @app.route('/answer_question', methods=['POST'])
 def answer_question():
